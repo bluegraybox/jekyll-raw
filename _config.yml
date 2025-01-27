@@ -14,7 +14,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # Make it look nicer
-theme: jekyll-theme-minima
+remote-theme: jekyll/minima
 # List all the posts on the home page
 plugins:
   - jekyll-feed
