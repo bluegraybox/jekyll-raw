@@ -9,6 +9,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a Jekyll site created directly on GitHub
 baseurl: "/jekyll-raw" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# GitHub still uses minima 2.5.1, which shows the title twice in the footer if there's no author.
+# (source: https://github.com/jekyll/minima/blob/v2.5.1/_includes/footer.html)
+author: Colin
+
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
