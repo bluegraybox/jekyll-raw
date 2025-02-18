@@ -18,3 +18,7 @@ theme: minima
 # List all the posts on the home page
 plugins:
   - jekyll-feed
+
+# Only show specific pages in the header, not all directories
+header_pages:
+  - about.md
